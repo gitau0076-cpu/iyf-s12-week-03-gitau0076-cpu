@@ -1,0 +1,213 @@
+/* Base Button Styling */
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* 1. Primary Button */
+.btn-primary {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* 2. Secondary Button */
+.btn-secondary {
+  background-color: transparent;
+  color: #2563eb;
+  border-color: #2563eb;
+}
+
+.btn-secondary:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* 3. Danger Button */
+.btn-danger {
+  background-color: #dc2626;
+  color: #ffffff;
+}
+
+.btn-danger:hover {
+  background-color: #b91c1c;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(220, 38, 38, 0.3);
+}
+
+/* 4. Disabled Button */
+.btn-disabled,
+.btn:disabled {
+  background-color: #d1d5db;
+  color: #9ca3af;
+  border-color: transparent;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.btn-disabled:hover,
+.btn:disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  max-width: 350px;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #2563eb;
+  background-color: #eff6ff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.hero {
+  min-height: 100vh;
+  background-image: url('https://via.hidden-waterfall-paradise/1920x1080');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.hero-content {
+  color: #ffffff;
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  color: #d1d5db;
+}
+.contact-form {
+  max-width: 500px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #374151;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+button:focus,
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+}
+/* Base Layout: Mobile First (1 Column) */
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr; /* 1 column on mobile */
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+
+/* Tablet Layout (2 Columns) */
+@media (min-width: 600px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet */
+  }
+}
+
+/* Desktop Layout (4 Columns) */
+@media (min-width: 1024px) {
+  .footer-container {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns on desktop */
+  }
+}
+
+/* Footer Bottom Styling */
+.footer-bottom {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.social-links a {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: #2563eb;
+}
