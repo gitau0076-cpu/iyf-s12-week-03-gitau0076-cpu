@@ -29,7 +29,7 @@
 `mv src-backup/ archive/` - Renamed the src-backup directory to archive.
 `rmdir archive/` - Attempted to remove archive failed because the directory was not empty.
 `rm -r archive/` - Removed the non-empty archive directory and its contents.
-## Challenge: Portfolio Reorganization
+## Exercise 3 : Challenge Portfolio Reorganization
 `mkdir portfolio-v2` - Created anew folder for the re-organized project version 2 structure.
 `mv src/ portfolio-v2/` - Moved the src folder into portfolio-v2.
 `mv README.md portfolio-v2` - Moved the README file into portfolio-v2.
