@@ -1,6 +1,6 @@
 # Florence Nyanjihia Gitau - Week 03 Project
 
-A project demonstrating developer workflow tools including Git, GitHub, branching, pull requests, collaboration, and repository organization.
+The project is  demonstrating developer workflow tools including Git, GitHub, branching, pull requests, collaboration, and repository organization.
 
 ## Live Demo
 
