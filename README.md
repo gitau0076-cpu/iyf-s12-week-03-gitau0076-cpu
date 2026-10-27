@@ -11,7 +11,6 @@ A project demonstrating developer workflow tools including Git, GitHub, branchin
 [Project Screenshot](./images/screenshot.JPG)
 
 ## Features
-
 ✅ Responsive design
 ✅ Accessible (WCAG compliant)
 ✅ Multi-page layout
