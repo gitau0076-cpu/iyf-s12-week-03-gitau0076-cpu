@@ -71,9 +71,9 @@ iyf-s12-week-03-gitau0076-cpu/
 
 ## Collaboration
 
-- **Partner:** [@partner](https://github.com/partner)
-- **Pair repo:** https://github.com/...
-- **PR I opened:** https://github.com/.../pull/N
-- **PR I reviewed:** https://github.com/.../pull/N
-- **Merge-conflict PR:** https://github.com/.../pull/N
+- **Partner:** [@michael-yugi]( https://github.com/michael-yugi/michael-yugi)
+- **Pair repo:** https://github.com/michael-yugi/iyf-s12-week-03-pair-michaelyugi
+- **PR I opened:** https://github.com/michael-yugi/iyf-s12-week-03-pair-michaelyugi/pull/2
+- **PR I reviewed:** https://github.com/michael-yugi/iyf-s12-week-03-pair-michaelyugi/pull/1
+- **Merge-conflict PR:** https://github.com/michael-yugi/iyf-s12-week-03-pair-michaelyugi/pull/4/
 
