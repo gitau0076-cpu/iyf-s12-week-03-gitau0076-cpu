@@ -63,7 +63,7 @@ iyf-s12-week-03-gitau0076-cpu/
 ## Future improvements
 ✅ Adding javascript interactivity
 ✅ Doing the work on time.
-✅ Add project filtering.
+✅ Add project filtering
 
 ## Contact
 - Email: gitau0076@gmail.com
