@@ -60,6 +60,13 @@ iyf-s12-week-03-gitau0076-cpu/
 - Deleting a nd renaming a file using commands.
 - Connecting a local respository to Github.
 
+## Challenges I faced
+- Resolving merge conflicts when combining branches, especially changes to about.html.
+- Understanding merge commits with two parents and how they differ from regular commits.
+- Renaming a commit message after it had already been pushed, which required an interactive rebase and a force push.
+- Keeping branches synchronized while collaborating and avoiding overwriting remote work.
+- Managing project files and folder structure while completing the daily challenges.
+
 ## Future improvements
 ✅ Adding javascript interactivity
 ✅ Doing the work on time.
